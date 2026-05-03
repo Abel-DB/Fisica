@@ -180,6 +180,8 @@ A - B = (Ax - Bx)î + (Ay - By)ĵ + (Az - Bz)k̂
 
 Se dibujan dos vectores desde el mismo origen y se completa un paralelogramo.
 
+![Paralelogramo](../imagenes/vector-paralelogramo.svg)
+
 La diagonal representa:
 
 R = A + B
@@ -189,8 +191,6 @@ Para la resta:
 R = A - B = A + (-B)
 
 ### Ejercicio
-
-![Paralelogramo](../imagenes/vector-paralelogramo.svg)
 
 ![Paralelogramo suma](../imagenes/vector-paralelogramo-suma-ejercicio.svg)
 
@@ -202,6 +202,8 @@ R = A - B = A + (-B)
 
 Consiste en separar los vectores en componentes sobre los ejes coordenados.
 
+![Descomposición](../imagenes/vector-descomposicion.svg)
+
 R = Rxî + Ryĵ + Rzk̂
 
 Donde:
@@ -211,8 +213,6 @@ Ry = Ay ± By
 Rz = Az ± Bz
 
 ### Ejercicio
-
-![Descomposición](../imagenes/vector-descomposicion.svg)
 
 ![Suma por descomposición](../imagenes/vector-descomposicion-suma.svg)
 
