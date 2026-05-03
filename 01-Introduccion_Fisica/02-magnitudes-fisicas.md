@@ -176,26 +176,3 @@ Ejemplo:
 ## Resumen
 
 Las magnitudes físicas son propiedades medibles expresadas mediante un número y una unidad. Se clasifican en fundamentales y derivadas, y son la base para describir cualquier fenómeno físico.
-
----
-
-## Palabras clave
-
-- Medición  
-- Unidad  
-- Magnitud  
-- Fundamental  
-- Derivada  
-- Escalar  
-- Vectorial  
-
----
-
-## Preguntas típicas de examen
-
-1. ¿Qué es una magnitud física?  
-2. ¿Cuáles son las magnitudes fundamentales más usadas en el curso?  
-3. ¿Qué diferencia existe entre magnitud fundamental y derivada?  
-4. Dé ejemplos de magnitudes escalares con símbolos.  
-5. Dé ejemplos de magnitudes vectoriales con símbolos.  
-6. ¿Por qué toda medición necesita unidad?

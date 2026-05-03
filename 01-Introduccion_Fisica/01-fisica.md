@@ -189,24 +189,3 @@ Segunda ley de Newton.
 ## Resumen
 
 La física es la ciencia que explica cómo funciona la naturaleza mediante observación, experimentos y matemáticas.
-
----
-
-## Palabras clave
-
-- Materia  
-- Energía  
-- Movimiento  
-- Fuerza  
-- Medición  
-- Leyes físicas  
-
----
-
-## Preguntas típicas de examen
-
-1. ¿Qué es la física?  
-2. ¿Qué estudia la física?  
-3. Nombre 5 ramas de la física.  
-4. ¿Por qué la matemática es importante en física?  
-5. Diferencia entre física clásica y moderna.

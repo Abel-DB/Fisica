@@ -111,26 +111,3 @@ Esto facilita notación científica y conversiones.
 ## Resumen
 
 Los múltiplos representan unidades mayores y los submúltiplos unidades menores. Se usan para simplificar medidas y facilitar conversiones.
-
----
-
-## Palabras clave
-
-- Prefijo  
-- Múltiplo  
-- Submúltiplo  
-- kilo  
-- centi  
-- mili  
-- micro  
-
----
-
-## Preguntas típicas de examen
-
-1. ¿Qué es un múltiplo?  
-2. ¿Qué es un submúltiplo?  
-3. ¿Cuánto vale 1 km en metros?  
-4. ¿Cuánto vale 1 cm en metros?  
-5. ¿Qué prefijo representa 10⁻³?  
-6. ¿Cuál es la diferencia entre M y m?

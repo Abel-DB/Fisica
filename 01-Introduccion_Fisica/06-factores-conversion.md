@@ -198,14 +198,3 @@ Luego sí se reemplaza.
 # Resumen
 
 Los factores de conversión permiten cambiar unidades sin modificar la cantidad física. Son esenciales para resolver problemas correctamente.
-
----
-
-# Preguntas Típicas
-
-1. ¿Qué es un factor de conversión?  
-2. Convierta 250 cm a m.  
-3. Convierta 3 kg a g.  
-4. Convierta 2 h a s.  
-5. Convierta 4 m² a cm².  
-6. Convierta 2 m³ a L.

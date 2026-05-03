@@ -121,26 +121,3 @@ Antes de resolver ejercicios se recomienda pasar todos los datos al SI.
 ## Resumen
 
 El Sistema Internacional de Unidades es el sistema estándar usado en ciencias. En este curso se trabaja principalmente con metro, kilogramo y segundo.
-
----
-
-## Palabras clave
-
-- SI  
-- Unidad  
-- Magnitud  
-- Metro  
-- Kilogramo  
-- Segundo  
-- Estándar  
-
----
-
-## Preguntas típicas de examen
-
-1. ¿Qué es el Sistema Internacional?  
-2. ¿Para qué sirve el SI?  
-3. Nombre tres magnitudes fundamentales.  
-4. ¿Qué unidad se usa para medir masa?  
-5. Dé ejemplos de magnitudes derivadas.  
-6. ¿Por qué se recomienda trabajar en SI?

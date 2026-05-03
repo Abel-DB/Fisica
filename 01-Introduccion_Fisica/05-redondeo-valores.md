@@ -178,14 +178,3 @@ Para redondear a dos decimales se observa la tercera cifra decimal:
 - Igual a 5 → se aplica regla par o impar.  
 
 Si hay varios ceros después del punto decimal, se trabaja desde la primera cifra significativa.
-
----
-
-## Preguntas típicas de examen
-
-1. ¿Qué es redondear?  
-2. ¿Qué pasa si la tercera cifra decimal es menor que 5?  
-3. ¿Qué pasa si es mayor que 5?  
-4. ¿Qué ocurre si es exactamente 5?  
-5. Redondee 10.345 a dos decimales.  
-6. Redondee 0.00346 correctamente.

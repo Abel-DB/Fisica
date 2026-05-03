@@ -209,14 +209,3 @@ Para hallar densidad primero se necesita el volumen.
 # Resumen
 
 La geometría aplicada en física permite calcular superficies y espacios ocupados por cuerpos reales mediante fórmulas geométricas.
-
----
-
-# Preguntas Típicas
-
-1. ¿Qué representa el área?  
-2. ¿Qué representa el volumen?  
-3. Halle el área de un rectángulo de 8 m por 3 m.  
-4. Halle el volumen de un cubo de lado 4 m.  
-5. Halle el volumen de un cilindro de radio 2 m y altura 6 m.  
-6. ¿Cuánto vale 1 m³ en litros?
