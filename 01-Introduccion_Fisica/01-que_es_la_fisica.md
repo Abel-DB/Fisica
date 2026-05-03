@@ -1,75 +1,212 @@
-# ¿QUÉ ES LA FÍSICA?
+# Tema 1: La Física
 
-La física es una ciencia natural que estudia la materia, la energía y las leyes que gobiernan sus interacciones en el universo. Su propósito es comprender cómo funcionan los fenómenos naturales, desde los más simples, como el movimiento de un objeto, hasta los más complejos, como el comportamiento del universo.
+## Definición
 
-La física busca no solo describir lo que ocurre en la naturaleza, sino también explicar por qué ocurre y predecir qué sucederá bajo determinadas condiciones. Para ello, utiliza el lenguaje matemático y el método científico.
+La Física es la ciencia natural que estudia la materia, la energía, el movimiento y las interacciones entre los cuerpos, con el objetivo de explicar cómo funciona el universo mediante leyes y principios.
 
----
+Busca describir fenómenos naturales usando:
 
-## 1.1 Objeto de estudio de la física
-
-La física se encarga de analizar:
-
-- La materia: todo aquello que tiene masa y ocupa espacio.
-- La energía: capacidad de producir cambios o realizar trabajo.
-- Las interacciones: fuerzas que actúan entre los cuerpos.
-- El espacio y el tiempo: marco donde ocurren los fenómenos físicos.
+- Observación  
+- Medición  
+- Experimentación  
+- Razonamiento matemático  
 
 ---
 
-## 1.2 Importancia de la física
+## ¿Qué estudia la Física?
 
-La física es fundamental porque:
+La física analiza preguntas como:
 
-- Permite comprender los fenómenos naturales (movimiento, luz, calor, electricidad).
-- Es la base de otras ciencias como la química, la astronomía y la ingeniería.
-- Ha permitido el desarrollo de tecnologías como la electricidad, los motores, los teléfonos y las computadoras.
-- Ayuda a explicar desde lo microscópico (átomos) hasta lo macroscópico (planetas y galaxias).
-
----
-
-## 1.3 Características de la física
-
-- Es una ciencia experimental: se basa en la observación y experimentación.
-- Es cuantitativa: utiliza mediciones y números.
-- Es exacta: emplea fórmulas matemáticas para describir fenómenos.
-- Es universal: sus leyes se cumplen en cualquier lugar del universo.
+- ¿Por qué cae un objeto al suelo?  
+- ¿Cómo se mueve un automóvil?  
+- ¿Cómo funciona la electricidad?  
+- ¿Qué es la luz?  
+- ¿Cómo se transmite el calor?  
+- ¿Cómo se comportan los planetas?  
 
 ---
 
-## 1.4 Ramas principales de la física
+## Importancia de la Física
 
-La física se divide en diferentes áreas según el tipo de fenómenos que estudia:
+La física es fundamental porque permite comprender y desarrollar tecnologías como:
 
-- Mecánica: estudia el movimiento y las fuerzas.
-- Termodinámica: estudia el calor y la energía térmica.
-- Electromagnetismo: estudia la electricidad y el magnetismo.
-- Óptica: estudia la luz.
-- Física moderna: incluye la relatividad y la mecánica cuántica.
+- Motores  
+- Computadoras  
+- Celulares  
+- Energía eléctrica  
+- Satélites  
+- Medicina por imágenes  
+- Construcción e ingeniería  
 
 ---
 
-## 1.5 Relación con otras ciencias
+## Método de estudio de la Física
+
+La física utiliza el método científico:
+
+1. Observación del fenómeno  
+2. Formulación de hipótesis  
+3. Experimentación  
+4. Recolección de datos  
+5. Análisis matemático  
+6. Conclusiones  
+7. Formulación de leyes o teorías  
+
+---
+
+## Magnitudes en Física
+
+Para estudiar fenómenos, la física mide cantidades llamadas magnitudes físicas.
+
+Ejemplos:
+
+- Longitud  
+- Masa  
+- Tiempo  
+- Temperatura  
+- Velocidad  
+- Fuerza  
+
+---
+
+## Ramas principales de la Física
+
+### Mecánica
+
+Estudia el movimiento y las fuerzas.
+
+Ejemplos:
+
+- Caída libre  
+- Autos en movimiento  
+- Equilibrio  
+
+### Termodinámica
+
+Estudia el calor, temperatura y energía térmica.
+
+Ejemplos:
+
+- Motores  
+- Refrigeración  
+- Cambios de estado  
+
+### Electromagnetismo
+
+Estudia electricidad y magnetismo.
+
+Ejemplos:
+
+- Circuitos  
+- Imanes  
+- Motores eléctricos  
+
+### Óptica
+
+Estudia la luz.
+
+Ejemplos:
+
+- Lentes  
+- Espejos  
+- Cámaras  
+
+### Acústica
+
+Estudia el sonido.
+
+Ejemplos:
+
+- Eco  
+- Instrumentos musicales  
+
+### Física Moderna
+
+Incluye teorías más recientes:
+
+- Relatividad  
+- Mecánica cuántica  
+- Física nuclear  
+
+---
+
+## Física clásica y moderna
+
+### Física clásica
+
+Describe fenómenos macroscópicos comunes.
+
+Ejemplo:
+
+- Movimiento de una pelota  
+
+### Física moderna
+
+Describe fenómenos extremos o microscópicos.
+
+Ejemplo:
+
+- Átomos  
+- Velocidad de la luz  
+
+---
+
+## Relación con otras ciencias
 
 La física se relaciona con:
 
-- Matemática: proporciona herramientas para expresar leyes físicas.
-- Química: explica la estructura y comportamiento de la materia.
-- Biología: interviene en procesos como la energía en los seres vivos.
-- Ingeniería: aplica los principios físicos para construir tecnología.
+- Matemática  
+- Química  
+- Ingeniería  
+- Astronomía  
+- Biología  
+- Informática  
 
 ---
 
-## 1.6 Ejemplos de fenómenos físicos
+## Ejemplos cotidianos de Física
 
-- La caída de un objeto debido a la gravedad.
-- El movimiento de un automóvil.
-- La propagación de la luz.
-- El calentamiento de un cuerpo.
-- La electricidad que circula en un circuito.
+- Abrir una puerta (torque)  
+- Frenar una bicicleta (fuerza)  
+- Hervir agua (calor)  
+- Lanzar una pelota (movimiento)  
+- Cargar el celular (electricidad)  
 
 ---
 
-## 1.7 Conclusión
+## Objetivo principal
 
-La física es una ciencia fundamental que permite entender el funcionamiento del universo mediante leyes y principios. Su estudio es esencial para el desarrollo científico y tecnológico, y constituye la base para comprender otras disciplinas.
+Encontrar leyes universales que permitan predecir fenómenos.
+
+Ejemplo:
+
+F = m · a
+
+Segunda ley de Newton.
+
+---
+
+## Resumen
+
+La física es la ciencia que explica cómo funciona la naturaleza mediante observación, experimentos y matemáticas.
+
+---
+
+## Palabras clave
+
+- Materia  
+- Energía  
+- Movimiento  
+- Fuerza  
+- Medición  
+- Leyes físicas  
+
+---
+
+## Preguntas típicas de examen
+
+1. ¿Qué es la física?  
+2. ¿Qué estudia la física?  
+3. Nombre 5 ramas de la física.  
+4. ¿Por qué la matemática es importante en física?  
+5. Diferencia entre física clásica y moderna.
