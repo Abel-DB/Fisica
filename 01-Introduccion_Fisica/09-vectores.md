@@ -38,7 +38,7 @@ Un vector se representa gráficamente mediante un segmento orientado.
 
 Ejemplo en GitHub:
 
-![Representación de un Vector](imagenes/vector-partes.svg)
+![Representación de un Vector](../imagenes/vector-partes.svg)
 
 ---
 
