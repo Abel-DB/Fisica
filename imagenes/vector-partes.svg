@@ -1,0 +1,86 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <!-- Flecha negra -->
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#111"/>
+    </marker>
+
+    <!-- Flecha azul -->
+    <marker id="arrowBlue" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#2563eb"/>
+    </marker>
+
+    <!-- Flecha roja -->
+    <marker id="arrowRed" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#dc2626"/>
+    </marker>
+  </defs>
+
+  <!-- Fondo -->
+  <rect width="100%" height="100%" fill="white"/>
+
+  <!-- Título -->
+  <text x="420" y="45" font-size="34" font-family="Arial" font-weight="bold">
+    Representación de un Vector
+  </text>
+
+  <!-- Ejes -->
+  <line x1="120" y1="560" x2="1080" y2="560" stroke="#888" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="120" y1="560" x2="120" y2="90" stroke="#888" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- Etiquetas ejes -->
+  <text x="1095" y="567" font-size="22" font-family="Arial">x</text>
+  <text x="105" y="82" font-size="22" font-family="Arial">y</text>
+
+  <!-- Vector principal -->
+  <line x1="120" y1="560" x2="760" y2="250"
+        stroke="#111" stroke-width="5"
+        marker-end="url(#arrow)"/>
+
+  <!-- Origen -->
+  <circle cx="120" cy="560" r="6" fill="#111"/>
+  <text x="40" y="595" font-size="24" font-family="Arial">Origen</text>
+
+  <!-- Extremo -->
+  <circle cx="760" cy="250" r="5" fill="#111"/>
+  <text x="785" y="258" font-size="24" font-family="Arial">Extremo</text>
+
+  <!-- Etiqueta vector -->
+  <text x="470" y="360" font-size="28" font-family="Arial" font-style="italic">A</text>
+
+  <!-- Módulo -->
+  <line x1="230" y1="610" x2="700" y2="385"
+        stroke="#2563eb" stroke-width="3"
+        marker-start="url(#arrowBlue)"
+        marker-end="url(#arrowBlue)"/>
+
+  <text x="470" y="520" font-size="28" fill="#2563eb" font-family="Arial">
+    Módulo
+  </text>
+
+  <!-- Dirección -->
+  <text x="570" y="130" font-size="26" font-family="Arial">Dirección</text>
+  <line x1="680" y1="140" x2="735" y2="210"
+        stroke="#111" stroke-width="2.5"
+        marker-end="url(#arrow)"/>
+
+  <!-- Sentido -->
+  <text x="835" y="175" font-size="26" font-family="Arial">Sentido</text>
+  <line x1="910" y1="185" x2="785" y2="235"
+        stroke="#111" stroke-width="2.5"
+        marker-end="url(#arrow)"/>
+
+  <!-- Ángulo -->
+  <path d="M250 560 A130 130 0 0 0 225 485"
+        fill="none"
+        stroke="#dc2626"
+        stroke-width="4"/>
+
+  <text x="260" y="500" font-size="32" fill="#dc2626" font-family="Arial">θ</text>
+
+  <text x="220" y="655" font-size="26" fill="#dc2626" font-family="Arial">
+    Ángulo de dirección
+  </text>
+
+</svg>
