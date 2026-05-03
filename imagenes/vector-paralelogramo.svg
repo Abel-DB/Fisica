@@ -1,0 +1,78 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+  <marker id="arrowRed" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+    <path d="M0,0 L12,6 L0,12 Z" fill="#dc2626"/>
+  </marker>
+
+  <marker id="arrowBlue" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+    <path d="M0,0 L12,6 L0,12 Z" fill="#2563eb"/>
+  </marker>
+
+  <marker id="arrowGreen" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+    <path d="M0,0 L12,6 L0,12 Z" fill="#16a34a"/>
+  </marker>
+</defs>
+
+<rect width="100%" height="100%" fill="white"/>
+
+<!-- TITULO -->
+<text x="315" y="42" font-size="34" font-family="Arial" font-weight="bold" fill="#111">
+Método del Paralelogramo
+</text>
+
+<!-- ORIGEN -->
+<circle cx="250" cy="560" r="5" fill="#111"/>
+
+<!-- Vector A -->
+<line x1="250" y1="560" x2="560" y2="560"
+stroke="#dc2626" stroke-width="2"
+marker-end="url(#arrowRed)"/>
+<text x="395" y="535" font-size="30" fill="#dc2626">A</text>
+
+<!-- Vector B -->
+<line x1="250" y1="560" x2="430" y2="330"
+stroke="#2563eb" stroke-width="2"
+marker-end="url(#arrowBlue)"/>
+<text x="315" y="435" font-size="30" fill="#2563eb">B</text>
+
+<!-- Paralela desde A -->
+<line x1="560" y1="560" x2="740" y2="330"
+stroke="#2563eb" stroke-width="2"
+stroke-dasharray="8 6"/>
+
+<!-- Paralela desde B -->
+<line x1="430" y1="330" x2="740" y2="330"
+stroke="#dc2626" stroke-width="2"
+stroke-dasharray="8 6"/>
+
+<!-- Resultante -->
+<line x1="250" y1="560" x2="740" y2="330"
+stroke="#16a34a" stroke-width="3"
+marker-end="url(#arrowGreen)"/>
+<text x="520" y="420" font-size="30" fill="#16a34a">R = A + B</text>
+
+<!-- Ángulo -->
+<path d="M320 560 A70 70 0 0 1 300 510"
+fill="none" stroke="#666" stroke-width="2"/>
+<text x="335" y="515" font-size="26" fill="#444">θ</text>
+
+<!-- Fórmulas -->
+<text x="860" y="220" font-size="26" fill="#dc2626">A → Vector horizontal</text>
+<text x="860" y="270" font-size="26" fill="#2563eb">B → Vector inclinado</text>
+<text x="860" y="340" font-size="26" fill="#16a34a">R = A + B</text>
+
+<text x="860" y="430" font-size="24" fill="#111">
+Diagonal = Resultante
+</text>
+
+<text x="860" y="480" font-size="24" fill="#111">
+θ = ángulo entre vectores
+</text>
+
+<!-- Etiquetas -->
+<text x="860" y="580" font-size="24" fill="#dc2626">Rojo → Vector A</text>
+<text x="860" y="620" font-size="24" fill="#2563eb">Azul → Vector B</text>
+<text x="860" y="660" font-size="24" fill="#16a34a">Verde → Resultante</text>
+
+</svg>

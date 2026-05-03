@@ -55,7 +55,7 @@ Es la longitud del vector y representa su intensidad.
 
 ### Dirección
 
-Es la orientación del vector respecto a un sistema de referencia. Generalmente se expresa mediante un ángulo.
+Es la orientación del vector respecto a un sistema de referencia.
 
 ### Sentido
 
@@ -63,118 +63,221 @@ Indica hacia qué lado apunta la flecha.
 
 ---
 
-## 5. Magnitud Escalar y Magnitud Vectorial
+## 5. Magnitudes Escalares y Vectoriales
 
-### Magnitud Escalar
+### Escalar
 
-Es aquella magnitud que queda determinada solo con:
+Solo necesita valor numérico y unidad.
 
-- valor numérico  
-- unidad  
+Ejemplos:
 
-No necesita dirección ni sentido.
+- masa  
+- tiempo  
+- energía  
+- temperatura  
 
-**Ejemplos:**
+### Vectorial
 
-- masa = 8 kg  
-- tiempo = 10 s  
-- temperatura = 25 °C  
-- energía = 200 J  
-
----
-
-### Magnitud Vectorial
-
-Es aquella magnitud que necesita:
+Necesita:
 
 - valor numérico  
 - unidad  
 - dirección  
 - sentido  
 
-**Ejemplos:**
+Ejemplos:
 
-- fuerza = 20 N hacia la derecha  
-- velocidad = 15 m/s al norte  
-- aceleración = 3 m/s² hacia abajo  
-- desplazamiento = 10 m al este  
+- fuerza  
+- velocidad  
+- aceleración  
+- desplazamiento  
 
 ---
 
 ## 6. Tipos de Vectores
 
-Los vectores se clasifican según la posición que ocupan en el espacio y la relación geométrica entre sus direcciones.
+### a) Paralelos
 
----
+Tienen la misma dirección.
 
-### a) Vectores Paralelos
-
-Dos o más vectores son paralelos cuando tienen la misma dirección.
-
-Pueden tener:
-
-- mismo sentido  
-- sentido contrario  
-- igual o diferente magnitud  
-
-**Representación:**
-
-A // B
-
-**Gráfico:**  
 ![Vectores paralelos](../imagenes/vector-paralelo.svg)
 
----
+### b) Perpendiculares
 
-### b) Vectores Perpendiculares
+Forman 90°.
 
-Dos vectores son perpendiculares cuando forman entre sí un ángulo recto de 90°.
-
-**Representación:**
-
-A ⟂ B
-
-**Gráfico:**  
 ![Vectores perpendiculares](../imagenes/vector-perpendicular.svg)
 
----
+### c) Coplanares
 
-### c) Vectores Coplanares
+Pertenecen al mismo plano.
 
-Dos o más vectores son coplanares cuando se encuentran en un mismo plano.
-
-**Representación:**
-
-A, B y C pertenecen al plano P
-
-**Gráfico:**  
 ![Vectores coplanares](../imagenes/vector-coplanar.svg)
 
----
+### d) Coliniales
 
-### d) Vectores Coliniales
+Están en la misma recta.
 
-Dos o más vectores son coliniales cuando se encuentran sobre una misma recta.
-
-Todos los coliniales son paralelos, pero además comparten la misma línea de acción.
-
-**Representación:**
-
-A // B // C
-
-**Gráfico:**  
 ![Vectores coliniales](../imagenes/vector-colineal.svg)
 
 ---
 
-## 7. Resumen
+## 7. Operaciones con Vectores
 
-| Tipo | Característica |
-|------|----------------|
-| Paralelos | Misma dirección |
-| Perpendiculares | Forman 90° |
-| Coplanares | Están en un mismo plano |
-| Coliniales | Están en una misma recta |
+Las operaciones vectoriales permiten combinar magnitudes dirigidas.
+
+---
+
+# 7.1 Suma y Resta de Vectores
+
+## Definición
+
+La suma produce un vector resultante:
+
+R = A + B
+
+La resta consiste en sumar el opuesto:
+
+R = A - B = A + (-B)
+
+---
+
+## a) En términos de vectores unitarios
+
+Si:
+
+A = Axî + Ayĵ + Azk̂  
+B = Bxî + Byĵ + Bzk̂
+
+Entonces:
+
+### Suma
+
+A + B = (Ax + Bx)î + (Ay + By)ĵ + (Az + Bz)k̂
+
+### Resta
+
+A - B = (Ax - Bx)î + (Ay - By)ĵ + (Az - Bz)k̂
+
+### Ejercicio 1:
+
+![Vector A](../imagenes/vector-a-por-componente.svg)
+
+![Vector B](../imagenes/vector-b-componente.svg)
+
+![Suma por componentes](../imagenes/vector-suma-por-componentes.svg)
+
+![Resta por componentes](../imagenes/vector-resta-por-componentes.svg)
+
+### Ejercicio 2:
+
+![Ejercicio 2 - Suma](../imagenes/vector-suma-por-componentes-ejercicio-2.svg)
+![Ejercicio 2 - Resta](../imagenes/vector-resta-por-componentes-ejercicio-2.svg)
+
+---
+
+## b) Método del Paralelogramo
+
+Se dibujan dos vectores desde el mismo origen y se completa un paralelogramo.
+
+La diagonal representa:
+
+R = A + B
+
+Para la resta:
+
+R = A - B = A + (-B)
+
+### Ejercicio
+
+![Paralelogramo](../imagenes/vector-paralelogramo.svg)
+
+![Paralelogramo suma](../imagenes/vector-paralelogramo-suma-ejercicio.svg)
+
+![Paralelogramo resta](../imagenes/vector-paralelogramo-resta-ejercicio.svg)
+
+---
+
+## c) Método de Descomposición
+
+Consiste en separar los vectores en componentes sobre los ejes coordenados.
+
+R = Rxî + Ryĵ + Rzk̂
+
+Donde:
+
+Rx = Ax ± Bx  
+Ry = Ay ± By  
+Rz = Az ± Bz
+
+### Ejercicio
+
+![Descomposición](../imagenes/vector-descomposicion.svg)
+
+![Suma por descomposición](../imagenes/vector-descomposicion-suma.svg)
+
+![Resta por descomposición](../imagenes/vector-descomposicion-resta.svg)
+
+---
+
+## Propiedades
+
+### Conmutativa
+
+A + B = B + A
+
+### Asociativa
+
+(A + B) + C = A + (B + C)
+
+### Inverso aditivo
+
+A + (-A) = 0
+
+---
+
+# 7.2 Producto de un Escalar por un Vector
+
+Consiste en multiplicar un número real por un vector.
+
+kA
+
+### Efectos
+
+- aumenta módulo  
+- disminuye módulo  
+- cambia sentido si k < 0  
+- vector nulo si k = 0
+
+---
+
+# 7.3 Producto de Vectores
+
+## a) Producto Escalar
+
+A · B = |A||B| cosθ
+
+Resultado: número real.
+
+Aplicaciones:
+
+- trabajo mecánico  
+- proyección  
+- perpendicularidad
+
+---
+
+## b) Producto Vectorial
+
+A × B = |A||B| senθ n̂
+
+Resultado: vector perpendicular.
+
+Aplicaciones:
+
+- torque  
+- rotación  
+- electromagnetismo
 
 ---
 
@@ -183,7 +286,14 @@ A // B // C
 El estudio de vectores permite:
 
 - representar fuerzas correctamente  
-- sumar y restar magnitudes vectoriales  
 - calcular resultantes  
 - analizar equilibrio  
-- estudiar movimientos en dos y tres dimensiones  
+- estudiar movimientos  
+- resolver problemas en 2D y 3D
+
+---
+
+## 9. Conclusión
+
+Los vectores son herramientas fundamentales en física e ingeniería.  
+Permiten describir magnitudes dirigidas y operar con ellas mediante suma, resta y productos vectoriales.

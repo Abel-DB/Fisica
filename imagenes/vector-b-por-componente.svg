@@ -1,0 +1,91 @@
+<svg width="1100" height="720" viewBox="0 0 1100 720" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+  <marker id="arrowBlack" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+    <path d="M0,0 L12,6 L0,12 Z" fill="#111"/>
+  </marker>
+
+  <marker id="arrowBlue" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+    <path d="M0,0 L12,6 L0,12 Z" fill="#2563eb"/>
+  </marker>
+
+  <marker id="arrowRed" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+    <path d="M0,0 L12,6 L0,12 Z" fill="#dc2626"/>
+  </marker>
+</defs>
+
+<rect width="100%" height="100%" fill="white"/>
+
+<!-- TITULO -->
+<text x="300" y="42" font-size="34" font-family="Arial" font-weight="bold" fill="#111">
+Vector B por Componentes
+</text>
+
+<!-- ORIGEN -->
+<circle cx="320" cy="520" r="5" fill="#111"/>
+
+<!-- EJE X -->
+<line x1="320" y1="520" x2="760" y2="520"
+stroke="#111" stroke-width="2"
+marker-end="url(#arrowBlack)"/>
+<text x="780" y="528" font-size="30" fill="#111">x</text>
+
+<!-- EJE Z -->
+<line x1="320" y1="520" x2="320" y2="170"
+stroke="#111" stroke-width="2"
+marker-end="url(#arrowBlack)"/>
+<text x="330" y="155" font-size="30" fill="#111">z</text>
+
+<!-- EJE Y -->
+<line x1="320" y1="520" x2="150" y2="650"
+stroke="#111" stroke-width="2"
+marker-end="url(#arrowBlack)"/>
+<text x="128" y="675" font-size="30" fill="#111">y</text>
+
+<!-- VECTOR B -->
+<line x1="320" y1="520" x2="560" y2="340"
+stroke="#dc2626" stroke-width="2"
+marker-end="url(#arrowRed)"/>
+<text x="455" y="415" font-size="30" fill="#dc2626">B</text>
+
+<!-- BX -->
+<line x1="320" y1="520" x2="560" y2="520"
+stroke="#2563eb" stroke-width="2"
+marker-end="url(#arrowBlue)"/>
+<text x="430" y="550" font-size="28" fill="#2563eb">Bx = 5</text>
+
+<!-- BZ -->
+<line x1="560" y1="520" x2="560" y2="340"
+stroke="#16a34a" stroke-width="2"
+marker-end="url(#arrowBlack)"/>
+<text x="575" y="435" font-size="28" fill="#16a34a">Bz = 4.3</text>
+
+<!-- BY -->
+<line x1="320" y1="520" x2="250" y2="575"
+stroke="#7c3aed" stroke-width="2"
+marker-end="url(#arrowBlack)"/>
+<text x="245" y="535" font-size="28" fill="#7c3aed">By = 2</text>
+
+<!-- GUÍAS -->
+<line x1="560" y1="340" x2="560" y2="520"
+stroke="#999" stroke-width="1.5" stroke-dasharray="6 6"/>
+
+<line x1="250" y1="575" x2="560" y2="575"
+stroke="#999" stroke-width="1.5" stroke-dasharray="6 6"/>
+
+<!-- FORMULA -->
+<text x="760" y="250" font-size="28" fill="#111">
+B = Bxî + Byĵ + Bzk̂
+</text>
+
+<text x="760" y="310" font-size="28" fill="#111">
+B = 5î + 2ĵ + 4.3k̂
+</text>
+
+<!-- ETIQUETAS -->
+<text x="840" y="430" font-size="24" fill="#2563eb">Azul → componente x</text>
+<text x="840" y="470" font-size="24" fill="#7c3aed">Morado → componente y</text>
+<text x="840" y="510" font-size="24" fill="#16a34a">Verde → componente z</text>
+<text x="840" y="550" font-size="24" fill="#dc2626">Rojo → vector B</text>
+
+</svg>

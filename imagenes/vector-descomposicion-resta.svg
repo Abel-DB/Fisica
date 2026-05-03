@@ -1,0 +1,117 @@
+<svg width="1250" height="820" viewBox="0 0 1250 820" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+  <marker id="arrowBlack" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+    <path d="M0,0 L12,6 L0,12 Z" fill="#111"/>
+  </marker>
+
+  <marker id="arrowRed" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+    <path d="M0,0 L12,6 L0,12 Z" fill="#dc2626"/>
+  </marker>
+
+  <marker id="arrowBlue" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+    <path d="M0,0 L12,6 L0,12 Z" fill="#2563eb"/>
+  </marker>
+
+  <marker id="arrowGreen" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+    <path d="M0,0 L12,6 L0,12 Z" fill="#16a34a"/>
+  </marker>
+</defs>
+
+<rect width="100%" height="100%" fill="white"/>
+
+<!-- TITULO -->
+<text x="250" y="42" font-size="34" font-family="Arial" font-weight="bold" fill="#111">
+Ejercicio - Resta por Descomposición
+</text>
+
+<!-- DATOS -->
+<text x="60" y="95" font-size="24" fill="#dc2626">A = 4î + 3ĵ + 2k̂</text>
+<text x="60" y="130" font-size="24" fill="#2563eb">B = 2î + ĵ + 5k̂</text>
+
+<!-- ORIGEN -->
+<circle cx="340" cy="610" r="5" fill="#111"/>
+
+<!-- EJES -->
+<line x1="340" y1="610" x2="810" y2="610"
+stroke="#111" stroke-width="2"
+marker-end="url(#arrowBlack)"/>
+<text x="830" y="618" font-size="30">x</text>
+
+<line x1="340" y1="610" x2="340" y2="170"
+stroke="#111" stroke-width="2"
+marker-end="url(#arrowBlack)"/>
+<text x="352" y="155" font-size="30">z</text>
+
+<line x1="340" y1="610" x2="140" y2="760"
+stroke="#111" stroke-width="2"
+marker-end="url(#arrowBlack)"/>
+<text x="115" y="782" font-size="30">y</text>
+
+<!-- VECTOR A -->
+<line x1="340" y1="610" x2="590" y2="430"
+stroke="#dc2626" stroke-width="2"
+marker-end="url(#arrowRed)"/>
+<text x="500" y="500" font-size="28" fill="#dc2626">A</text>
+
+<!-- COMPONENTES A -->
+<line x1="340" y1="610" x2="540" y2="610"
+stroke="#dc2626" stroke-width="2" stroke-dasharray="8 6"/>
+<line x1="540" y1="610" x2="540" y2="500"
+stroke="#dc2626" stroke-width="2" stroke-dasharray="8 6"/>
+<line x1="340" y1="610" x2="275" y2="660"
+stroke="#dc2626" stroke-width="2" stroke-dasharray="8 6"/>
+
+<text x="425" y="645" font-size="22" fill="#dc2626">Ax=4</text>
+<text x="555" y="560" font-size="22" fill="#dc2626">Az=2</text>
+<text x="235" y="620" font-size="22" fill="#dc2626">Ay=3</text>
+
+<!-- VECTOR B -->
+<line x1="340" y1="610" x2="500" y2="320"
+stroke="#2563eb" stroke-width="2"
+marker-end="url(#arrowBlue)"/>
+<text x="420" y="470" font-size="28" fill="#2563eb">B</text>
+
+<!-- COMPONENTES B -->
+<line x1="340" y1="610" x2="440" y2="610"
+stroke="#2563eb" stroke-width="2" stroke-dasharray="8 6"/>
+<line x1="440" y1="610" x2="440" y2="320"
+stroke="#2563eb" stroke-width="2" stroke-dasharray="8 6"/>
+<line x1="340" y1="610" x2="315" y2="628"
+stroke="#2563eb" stroke-width="2" stroke-dasharray="8 6"/>
+
+<text x="365" y="585" font-size="22" fill="#2563eb">Bx=2</text>
+<text x="455" y="470" font-size="22" fill="#2563eb">Bz=5</text>
+<text x="280" y="585" font-size="22" fill="#2563eb">By=1</text>
+
+<!-- RESULTANTE -->
+<line x1="340" y1="610" x2="470" y2="520"
+stroke="#16a34a" stroke-width="4"
+marker-end="url(#arrowGreen)"/>
+<text x="485" y="510" font-size="28" fill="#16a34a">R = A - B</text>
+
+<!-- RESULTANTE COMPONENTES -->
+<line x1="340" y1="610" x2="440" y2="610"
+stroke="#16a34a" stroke-width="2" stroke-dasharray="8 6"/>
+<line x1="440" y1="610" x2="440" y2="520"
+stroke="#16a34a" stroke-width="2" stroke-dasharray="8 6"/>
+
+<text x="375" y="585" font-size="22" fill="#16a34a">Rx=2</text>
+<text x="455" y="575" font-size="22" fill="#16a34a">Rz=-3</text>
+<text x="250" y="700" font-size="22" fill="#16a34a">Ry=2</text>
+
+<!-- PANEL DERECHO -->
+<text x="910" y="220" font-size="24" fill="#111">Rx = 4 - 2 = 2</text>
+<text x="910" y="270" font-size="24" fill="#111">Ry = 3 - 1 = 2</text>
+<text x="910" y="320" font-size="24" fill="#111">Rz = 2 - 5 = -3</text>
+
+<text x="910" y="410" font-size="28" fill="#16a34a">
+R = 2î + 2ĵ - 3k̂
+</text>
+
+<!-- LEYENDA -->
+<text x="910" y="540" font-size="24" fill="#dc2626">Rojo → Vector A</text>
+<text x="910" y="580" font-size="24" fill="#2563eb">Azul → Vector B</text>
+<text x="910" y="620" font-size="24" fill="#16a34a">Verde → Resultante</text>
+
+</svg>

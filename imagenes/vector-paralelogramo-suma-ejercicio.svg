@@ -1,0 +1,91 @@
+<svg width="1200" height="780" viewBox="0 0 1200 780" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+  <marker id="arrowRed" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+    <path d="M0,0 L12,6 L0,12 Z" fill="#dc2626"/>
+  </marker>
+
+  <marker id="arrowBlue" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+    <path d="M0,0 L12,6 L0,12 Z" fill="#2563eb"/>
+  </marker>
+
+  <marker id="arrowGreen" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+    <path d="M0,0 L12,6 L0,12 Z" fill="#16a34a"/>
+  </marker>
+</defs>
+
+<rect width="100%" height="100%" fill="white"/>
+
+<!-- TITULO -->
+<text x="260" y="42" font-size="34" font-family="Arial" font-weight="bold" fill="#111">
+Ejercicio 1 - Suma por Método del Paralelogramo
+
+</text>
+
+<!-- Enunciado -->
+<text x="70" y="95" font-size="24" fill="#111">
+Dados los vectores A = 8 u y B = 6 u con ángulo θ = 60°.
+</text>
+
+<text x="70" y="130" font-size="24" fill="#111">
+Hallar el vector resultante R usando el método del paralelogramo.
+</text>
+
+<!-- ORIGEN -->
+<circle cx="260" cy="620" r="5" fill="#111"/>
+
+<!-- Vector A -->
+<line x1="260" y1="620" x2="560" y2="620"
+stroke="#dc2626" stroke-width="2"
+marker-end="url(#arrowRed)"/>
+<text x="405" y="595" font-size="28" fill="#dc2626">A = 8</text>
+
+<!-- Vector B -->
+<line x1="260" y1="620" x2="430" y2="360"
+stroke="#2563eb" stroke-width="2"
+marker-end="url(#arrowBlue)"/>
+<text x="315" y="490" font-size="28" fill="#2563eb">B = 6</text>
+
+<!-- Paralelas -->
+<line x1="560" y1="620" x2="730" y2="360"
+stroke="#2563eb" stroke-width="2"
+stroke-dasharray="8 6"/>
+
+<line x1="430" y1="360" x2="730" y2="360"
+stroke="#dc2626" stroke-width="2"
+stroke-dasharray="8 6"/>
+
+<!-- Resultante -->
+<line x1="260" y1="620" x2="730" y2="360"
+stroke="#16a34a" stroke-width="3"
+marker-end="url(#arrowGreen)"/>
+<text x="520" y="470" font-size="28" fill="#16a34a">R</text>
+
+<!-- Angulo -->
+<path d="M340 620 A80 80 0 0 1 315 560"
+fill="none" stroke="#666" stroke-width="2"/>
+<text x="355" y="560" font-size="26" fill="#444">60°</text>
+
+<!-- Solución -->
+<text x="850" y="260" font-size="24" fill="#111">
+R = √(A² + B² + 2AB cosθ)
+</text>
+
+<text x="850" y="320" font-size="24" fill="#111">
+R = √(8² + 6² + 2·8·6·cos60°)
+</text>
+
+<text x="850" y="380" font-size="24" fill="#111">
+R = √(64 + 36 + 48)
+</text>
+
+<text x="850" y="440" font-size="28" fill="#16a34a">
+R = √148 = 12.17 u
+</text>
+
+<!-- Leyenda -->
+<text x="850" y="560" font-size="24" fill="#dc2626">Rojo → Vector A</text>
+<text x="850" y="600" font-size="24" fill="#2563eb">Azul → Vector B</text>
+<text x="850" y="640" font-size="24" fill="#16a34a">Verde → Resultante</text>
+
+</svg>
