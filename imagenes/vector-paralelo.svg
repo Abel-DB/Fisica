@@ -1,0 +1,72 @@
+<svg width="1100" height="560" viewBox="0 0 1100 560" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+  <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+    <path d="M0,0 L12,6 L0,12 Z" fill="#111"/>
+  </marker>
+</defs>
+
+<rect width="100%" height="100%" fill="white"/>
+
+<!-- Título -->
+<text x="360" y="42" font-size="34" font-family="Arial" font-weight="bold">
+Vectores Paralelos
+</text>
+
+<!-- Línea base -->
+<line x1="90" y1="430" x2="1010" y2="430" stroke="#999" stroke-width="2"/>
+
+<!-- Vector A -->
+<line x1="180" y1="430" x2="540" y2="220"
+      stroke="#111" stroke-width="5"
+      marker-end="url(#arrow)"/>
+
+<!-- Etiqueta A -->
+<text x="350" y="278" font-size="30" font-family="Arial">A</text>
+<line x1="352" y1="252" x2="370" y2="252"
+      stroke="#111" stroke-width="0.5"
+      marker-end="url(#arrow)"/>
+
+<!-- Arco alfa -->
+<path d="M275 430 A95 95 0 0 0 245 375"
+      fill="none" stroke="#dc2626" stroke-width="3"/>
+
+<text x="290" y="380" font-size="28" fill="#dc2626" font-family="Arial">α</text>
+
+<!-- Vector B -->
+<line x1="520" y1="430" x2="880" y2="220"
+      stroke="#111" stroke-width="5"
+      marker-end="url(#arrow)"/>
+
+<!-- Etiqueta B -->
+<text x="695" y="278" font-size="30" font-family="Arial">B</text>
+<line x1="697" y1="252" x2="715" y2="252"
+      stroke="#111" stroke-width="0.5"
+      marker-end="url(#arrow)"/>
+
+<!-- Arco phi -->
+<path d="M615 430 A95 95 0 0 0 585 375"
+      fill="none" stroke="#2563eb" stroke-width="3"/>
+
+<text x="630" y="380" font-size="28" fill="#2563eb" font-family="Arial">φ</text>
+
+<!-- Relaciones -->
+<text x="760" y="110" font-size="28" font-family="Arial">A // B</text>
+
+<!-- Flecha arriba de A -->
+<line x1="760" y1="88" x2="778" y2="88"
+      stroke="#111" stroke-width="0.5"
+      marker-end="url(#arrow)"/>
+
+<!-- Flecha arriba de B -->
+<line x1="811" y1="88" x2="830" y2="88"
+      stroke="#111" stroke-width="0.5"
+      marker-end="url(#arrow)"/>
+
+<text x="760" y="155" font-size="28" font-family="Arial">α = φ</text>
+
+<text x="760" y="200" font-size="24" font-family="Arial">
+Misma dirección y sentido
+</text>
+
+</svg>

@@ -1,0 +1,58 @@
+<svg width="1100" height="560" viewBox="0 0 1100 560" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+  <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+    <path d="M0,0 L12,6 L0,12 Z" fill="#111"/>
+  </marker>
+</defs>
+
+<rect width="100%" height="100%" fill="white"/>
+
+<!-- Título -->
+<text x="335" y="42" font-size="34" font-family="Arial" font-weight="bold">
+Vectores Coplanares
+</text>
+
+<!-- Plano -->
+<polygon points="150,420 620,420 880,180 410,180"
+         fill="none" stroke="#4f46e5" stroke-width="3"/>
+
+<!-- Vector A -->
+<line x1="470" y1="290" x2="640" y2="290"
+      stroke="#111" stroke-width="2"
+      marker-end="url(#arrow)"/>
+
+<text x="545" y="275" font-size="30" font-family="Arial">A</text>
+<line x1="547" y1="250" x2="565" y2="250"
+      stroke="#111" stroke-width="0.5"
+      marker-end="url(#arrow)"/>
+
+<!-- Vector B -->
+<line x1="260" y1="365" x2="430" y2="365"
+      stroke="#111" stroke-width="2"
+      marker-end="url(#arrow)"/>
+
+<text x="335" y="350" font-size="30" font-family="Arial">B</text>
+<line x1="337" y1="325" x2="355" y2="325"
+      stroke="#111" stroke-width="0.5"
+      marker-end="url(#arrow)"/>
+
+<!-- Vector C diagonal -->
+<line x1="760" y1="240" x2="650" y2="340"
+      stroke="#111" stroke-width="2"
+      marker-end="url(#arrow)"/>
+
+<text x="710" y="315" font-size="30" font-family="Arial">C</text>
+<line x1="712" y1="290" x2="730" y2="290"
+      stroke="#111" stroke-width="0.5"
+      marker-end="url(#arrow)"/>
+
+<!-- Símbolo de plano -->
+<text x="790" y="160" font-size="34" font-family="Arial">P</text>
+
+<!-- Texto -->
+<text x="760" y="460" font-size="24" font-family="Arial">
+Mismo plano P
+</text>
+
+</svg>

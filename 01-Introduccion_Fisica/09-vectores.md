@@ -1,24 +1,24 @@
 # Tema 09: Vectores
 
-## Introducción
+## 1. Introducción
 
 En física existen magnitudes que no solo requieren un valor numérico y una unidad, sino también una dirección y un sentido para quedar completamente definidas. Estas magnitudes reciben el nombre de **vectores**.
 
-Los vectores permiten representar fenómenos donde importa hacia dónde actúa una cantidad física y cómo se comporta en el espacio.
+Los vectores permiten representar fenómenos donde importa tanto la intensidad como la orientación en el espacio.
 
-Se utilizan frecuentemente en:
+Se utilizan en:
 
 - fuerzas aplicadas sobre cuerpos  
 - velocidad de un móvil  
-- aceleración de una partícula  
-- desplazamiento de objetos  
+- aceleración  
+- desplazamiento  
 - campos eléctricos y magnéticos  
 
-Por esta razón, el estudio de vectores es fundamental en física, matemáticas e ingeniería.
+Por esta razón, el estudio de vectores es fundamental en física e ingeniería.
 
 ---
 
-## Definición
+## 2. Definición
 
 Un vector es una magnitud física que para quedar completamente determinada necesita:
 
@@ -26,108 +26,73 @@ Un vector es una magnitud física que para quedar completamente determinada nece
 - dirección  
 - sentido  
 
-Generalmente se representa mediante una flecha orientada.
+Se representa gráficamente mediante una flecha orientada.
 
 ---
 
-# Representación de un Vector
+## 3. Representación de un Vector
 
-Un vector se representa gráficamente mediante un segmento orientado.
+Un vector se representa mediante un segmento dirigido desde un punto inicial hacia un punto final.
 
-(Insertar imagen SVG del vector en esta sección)
-
-Ejemplo en GitHub:
-
-![Representación de un Vector](../imagenes/vector-partes.svg)
+**Gráfico:**  
+![Representación de un vector](../imagenes/vector-partes.svg)
 
 ---
 
-# Partes del Vector
+## 4. Partes del Vector
 
-## Origen
+### Origen
 
-Es el punto donde inicia el vector.
+Es el punto donde comienza el vector.
 
-## Extremo
+### Extremo
 
 Es el punto final donde termina la flecha.
 
-## Módulo
+### Módulo
 
-Es la longitud del vector y representa su tamaño o intensidad.
+Es la longitud del vector y representa su intensidad.
 
-Ejemplos:
+### Dirección
 
-- fuerza de 20 N  
-- velocidad de 15 m/s  
+Es la orientación del vector respecto a un sistema de referencia. Generalmente se expresa mediante un ángulo.
 
-## Dirección
+### Sentido
 
-Es la orientación del vector respecto a un sistema de referencia.
-
-Generalmente se expresa mediante un ángulo medido desde el eje positivo x.
-
-Ejemplos:
-
-- 30°  
-- 45°  
-- 120°  
-
-## Sentido
-
-Indica hacia dónde apunta la flecha sobre la línea de acción.
-
-Ejemplos:
-
-- hacia la derecha  
-- hacia arriba  
-- hacia el oeste  
+Indica hacia qué lado apunta la flecha.
 
 ---
 
-# Importancia de la Representación Vectorial
+## 5. Magnitud Escalar y Magnitud Vectorial
 
-La representación gráfica permite:
+### Magnitud Escalar
 
-- visualizar fuerzas y movimientos  
-- resolver problemas geométricamente  
-- descomponer vectores en ejes coordenados  
-- hallar vectores resultantes  
-- interpretar fenómenos físicos con claridad  
-
----
-
-# Magnitud Escalar y Magnitud Vectorial
-
-## Magnitud Escalar
-
-Es aquella magnitud física que queda completamente determinada solo con:
+Es aquella magnitud que queda determinada solo con:
 
 - valor numérico  
 - unidad  
 
 No necesita dirección ni sentido.
 
-### Ejemplos
+**Ejemplos:**
 
 - masa = 8 kg  
-- tiempo = 12 s  
+- tiempo = 10 s  
 - temperatura = 25 °C  
-- energía = 300 J  
-- volumen = 2 m³  
+- energía = 200 J  
 
 ---
 
-## Magnitud Vectorial
+### Magnitud Vectorial
 
-Es aquella magnitud física que necesita:
+Es aquella magnitud que necesita:
 
 - valor numérico  
 - unidad  
 - dirección  
 - sentido  
 
-### Ejemplos
+**Ejemplos:**
 
 - fuerza = 20 N hacia la derecha  
 - velocidad = 15 m/s al norte  
@@ -136,14 +101,89 @@ Es aquella magnitud física que necesita:
 
 ---
 
-# Diferencia Principal
+## 6. Tipos de Vectores
 
-Escalar   = valor + unidad
-
-Vectorial = valor + unidad + dirección + sentido
+Los vectores se clasifican según la posición que ocupan en el espacio y la relación geométrica entre sus direcciones.
 
 ---
 
-# Resumen
+### a) Vectores Paralelos
 
-Los vectores son magnitudes físicas que poseen módulo, dirección y sentido. Se diferencian de las magnitudes escalares porque estas solo requieren valor numérico y unidad.
+Dos o más vectores son paralelos cuando tienen la misma dirección.
+
+Pueden tener:
+
+- mismo sentido  
+- sentido contrario  
+- igual o diferente magnitud  
+
+**Representación:**
+
+A // B
+
+**Gráfico:**  
+![Vectores paralelos](../imagenes/vector-paralelo.svg)
+
+---
+
+### b) Vectores Perpendiculares
+
+Dos vectores son perpendiculares cuando forman entre sí un ángulo recto de 90°.
+
+**Representación:**
+
+A ⟂ B
+
+**Gráfico:**  
+![Vectores perpendiculares](../imagenes/vector-perpendicular.svg)
+
+---
+
+### c) Vectores Coplanares
+
+Dos o más vectores son coplanares cuando se encuentran en un mismo plano.
+
+**Representación:**
+
+A, B y C pertenecen al plano P
+
+**Gráfico:**  
+![Vectores coplanares](../imagenes/vector-coplanar.svg)
+
+---
+
+### d) Vectores Coliniales
+
+Dos o más vectores son coliniales cuando se encuentran sobre una misma recta.
+
+Todos los coliniales son paralelos, pero además comparten la misma línea de acción.
+
+**Representación:**
+
+A // B // C
+
+**Gráfico:**  
+![Vectores coliniales](../imagenes/vector-colineal.svg)
+
+---
+
+## 7. Resumen
+
+| Tipo | Característica |
+|------|----------------|
+| Paralelos | Misma dirección |
+| Perpendiculares | Forman 90° |
+| Coplanares | Están en un mismo plano |
+| Coliniales | Están en una misma recta |
+
+---
+
+## 8. Importancia
+
+El estudio de vectores permite:
+
+- representar fuerzas correctamente  
+- sumar y restar magnitudes vectoriales  
+- calcular resultantes  
+- analizar equilibrio  
+- estudiar movimientos en dos y tres dimensiones  

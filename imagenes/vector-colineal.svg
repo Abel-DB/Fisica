@@ -1,0 +1,67 @@
+<svg width="1100" height="560" viewBox="0 0 1100 560" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+  <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+    <path d="M0,0 L12,6 L0,12 Z" fill="#111"/>
+  </marker>
+</defs>
+
+<rect width="100%" height="100%" fill="white"/>
+
+<!-- Título -->
+<text x="335" y="42" font-size="34" font-family="Arial" font-weight="bold">
+Vectores Coliniales
+</text>
+
+<!-- Línea de acción punteada -->
+<line x1="80" y1="260" x2="1020" y2="260"
+      stroke="#111" stroke-width="2"
+      stroke-dasharray="8 8"/>
+
+<!-- Vector A -->
+<line x1="170" y1="260" x2="320" y2="260"
+      stroke="#111" stroke-width="2"
+      marker-end="url(#arrow)"/>
+
+<text x="235" y="240" font-size="30" font-family="Arial">A</text>
+<line x1="237" y1="215" x2="255" y2="215"
+      stroke="#111" stroke-width="0.5"
+      marker-end="url(#arrow)"/>
+
+<!-- Vector B -->
+<line x1="560" y1="260" x2="430" y2="260"
+      stroke="#111" stroke-width="2"
+      marker-end="url(#arrow)"/>
+
+<text x="490" y="240" font-size="30" font-family="Arial">B</text>
+<line x1="492" y1="215" x2="510" y2="215"
+      stroke="#111" stroke-width="0.5"
+      marker-end="url(#arrow)"/>
+
+<!-- Vector C -->
+<line x1="730" y1="260" x2="880" y2="260"
+      stroke="#111" stroke-width="2"
+      marker-end="url(#arrow)"/>
+
+<text x="795" y="240" font-size="30" font-family="Arial">C</text>
+<line x1="797" y1="215" x2="815" y2="215"
+      stroke="#111" stroke-width="0.5"
+      marker-end="url(#arrow)"/>
+
+<!-- Texto línea de acción -->
+<path d="M140 390 C110 390, 95 360, 95 330"
+      fill="none" stroke="#111" stroke-width="2"
+      marker-end="url(#arrow)"/>
+
+<text x="155" y="390" font-size="26" font-family="Arial">
+Línea de acción
+</text>
+
+<!-- Relación -->
+<text x="760" y="120" font-size="28" font-family="Arial">A // B // C</text>
+
+<text x="760" y="165" font-size="24" font-family="Arial">
+Misma recta de acción
+</text>
+
+</svg>
