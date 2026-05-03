@@ -163,7 +163,7 @@ A - B = (Ax - Bx)î + (Ay - By)ĵ + (Az - Bz)k̂
 
 ![Vector A](../imagenes/vector-a-por-componente.svg)
 
-![Vector B](../imagenes/vector-b-componente.svg)
+![Vector B](../imagenes/vector-b-por-componente.svg)
 
 ![Suma por componentes](../imagenes/vector-suma-por-componentes.svg)
 
